@@ -1,6 +1,5 @@
 import "./styles.css";
 import { ReactComponent as Main } from './main.svg';
-import Footer from "../Footer";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }
